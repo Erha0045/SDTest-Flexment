@@ -12,8 +12,8 @@ describe("Test get tasks", () => {
         })
     });
 
-    it("should return a 200", async () => {
-        await supertest(app).get("/tasks").expect(200);
+    it("should return a 200",  () => {
+         supertest(app).get("/tasks").expect(200);
     });
 
 });
@@ -35,8 +35,8 @@ describe("Test get users", () => {
         } )
     });
 
-    it("should return a 200", async () => {
-        await supertest(app).get("/users").expect(200);
+    it("should return a 200",  () => {
+         supertest(app).get("/users").expect(200);
     });
 
 });
