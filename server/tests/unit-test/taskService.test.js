@@ -1,4 +1,5 @@
-const {calculateStartIndex, convertStringToArray} = require("../../services/taskService.js");
+//const {calculateStartIndex, convertStringToArray} = require("../../services/taskService.js");
+import { calculateStartIndex, convertStringToArray} from "../../services/taskService.js";
 import {expect, test} from '@jest/globals';
 
 test('Calculate starting index of every page', () => {

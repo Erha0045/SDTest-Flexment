@@ -1,4 +1,5 @@
-const { passwordCharConstrain, nameCharConstrain, fullName, errorMessage} = require('../../services/userService.js');
+//const { passwordCharConstrain, nameCharConstrain, fullName, errorMessage} = require('../../services/userService.js');
+import { passwordCharConstrain, nameCharConstrain, fullName, errorMessage} from "../../services/userService.js";
 import {expect, it, test,describe} from '@jest/globals';
 
 test('Password for sign-in complies with constrains', () => {
